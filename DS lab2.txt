@@ -1,0 +1,17 @@
+
+This methods follows the singleton pattern.
+
+In singleton, client(first client) calls a method and server creates an instance to serve 
+the request and response it. After that instance is not destroyed. The second method call 
+from the new client comes. without destroying the old instance it is used to  serve and 
+responce for the new client's method call. so in there one instance serves for all client
+requests.
+
+In per call, the server creates an instance when a client calls a method(first method call).
+It serves the request and sends a responce. After distroyed the instance. when the client 
+calls second method it again creates a new instance and serves the request and destroy the 
+instance. It means when the client calls the methods, server creates a new instance to serve 
+the requests and responce for each method call destroying the previous insatnce.
+
+  
+
