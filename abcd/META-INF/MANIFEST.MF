@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Abcd
+Bundle-SymbolicName: abcd
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: abcd.Activator
+Import-Package: abcd,
+ org.osgi.framework;version="1.3.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: abcd
